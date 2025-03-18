@@ -5,5 +5,5 @@ public interface IMovement
     public CharacterController cc {get; set;}
     public float movSpeed {get; set;}
 
-    void Movement(Vector2 movInput){}
+    void Movement(){}
 }
